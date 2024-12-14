@@ -169,7 +169,7 @@ SET_CMDS = getenv("SET_CMDS", "False")
 
 
 # You'll need a Pyrogram String Session for these vars. Generate String from our session generator bot @YukkiStringBot
-STRING_SESSIONS = list(map(str.strip, getenv("STRING_SESSIONS", None).split(",")))
+STRING_SESSIONS = list(map(str.strip, getenv("STRING_SESSIONS", "BQGBokoAXuPqwrAPUt77rT5uZtAuDysA7PT60D8zqxAizy7N8ZSc3Npm_N7JY5uVeZwsOCBOxAUn1muRnMcABtZothQ0Zd8SEtsUTr_rPn1mvOTSZCRPDPWgyIevLH--o0riyddMk_FpSBnWhQqRwA2HPtYhDlVklA2WtbCY5i_MhtLTM2tXiasUVCZNDndynLiAONUNUdxbnCKWWlrZtQpFgFljiswdlsgPE8-ey1kyYRxOqkVOxtucp1SjIiT_G5N81N8jyz0zRqRVlLs6zEPPGbkvD4HPuqXTZw45bucS1DOp3yvmSs7-nDjgL8RTIUl4Z5qsajfIjEub6wWIojXgxMczGQAAAAHGzi6GAA").split(",")))
 
 
 #  __     ___    _ _  ___  _______   __  __ _    _  _____ _____ _____
@@ -199,12 +199,12 @@ autoclean = []
 
 START_IMG_URL = getenv(
     "START_IMG_URL",
-    "https://te.legra.ph/file/4ec5ae4381dffb039b4ef.jpg",  # This is the file id of the photo you can also put the url of photo
+    "https://graph.org/file/a11b92d11d3b9ab8e77ee.jpg",  # This is the file id of the photo you can also put the url of photo
 )
 
 PING_IMG_URL = getenv(
     "PING_IMG_URL",
-    "https://telegra.ph/file/91533956c91d0fd7c9f20.jpg",
+    "https://graph.org/file/a11b92d11d3b9ab8e77ee.jpg",
 )
 
 PLAYLIST_IMG_URL = getenv(
